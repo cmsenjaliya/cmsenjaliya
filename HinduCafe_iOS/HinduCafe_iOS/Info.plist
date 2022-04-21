@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Hindu Cafe may access your Photo Library to choose photos.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Hindu Cafe may access your camera to allow you to take photos.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Kalam-Bold</string>
+		<string>Kalam-Light</string>
+		<string>Kalam-Regular</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

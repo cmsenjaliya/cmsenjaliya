@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="IoN-nr-kVm">
+            <objects>
+                <viewController id="d1T-A2-sSy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="anS-3m-Ddl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HinduCafe Name" translatesAutoresizingMaskIntoConstraints="NO" id="KXz-Oj-Ypa">
+                                <rect key="frame" x="96" y="274.5" width="222" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gzQ-SU-NU4"/>
+                                    <constraint firstAttribute="width" constant="222" id="jE4-ng-9KH"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="1nl-yO-ciT">
+                                <rect key="frame" x="126.5" y="367.5" width="161" height="161"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="Ksk-2f-D3d"/>
+                                    <constraint firstAttribute="height" constant="161" id="nlg-hm-ute"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hdj-09-EyA"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="KXz-Oj-Ypa" firstAttribute="centerX" secondItem="anS-3m-Ddl" secondAttribute="centerX" id="9sa-HG-xiw"/>
+                            <constraint firstItem="1nl-yO-ciT" firstAttribute="top" secondItem="KXz-Oj-Ypa" secondAttribute="bottom" constant="53" id="BwJ-Gi-wsG"/>
+                            <constraint firstItem="1nl-yO-ciT" firstAttribute="top" secondItem="KXz-Oj-Ypa" secondAttribute="bottom" constant="53" id="Kw6-s4-Xsc"/>
+                            <constraint firstItem="1nl-yO-ciT" firstAttribute="centerX" secondItem="anS-3m-Ddl" secondAttribute="centerX" id="T4x-63-AMg"/>
+                            <constraint firstItem="1nl-yO-ciT" firstAttribute="centerY" secondItem="anS-3m-Ddl" secondAttribute="centerY" id="XSK-dG-XPZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9tD-Uh-Bi0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HinduCafe Name" width="205" height="45"/>
+        <image name="Logo" width="161" height="161"/>
+        <namedColor name="Background">
+            <color red="0.043000001460313797" green="0.071000002324581146" blue="0.14499999582767487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
