@@ -1,0 +1,6 @@
+framework module Pods_HinduCafe_iOS {
+  umbrella header "Pods-HinduCafe_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

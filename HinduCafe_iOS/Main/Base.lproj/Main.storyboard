@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kalam-Bold.ttf">
+            <string>Kalam-Bold</string>
+        </array>
+        <array key="Kalam-Regular.ttf">
+            <string>Kalam-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LoginVC" customModule="HinduCafe_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Wy-Jw-9kR">
+                                <rect key="frame" x="67.5" y="60" width="240" height="231"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HinduCafe Name" translatesAutoresizingMaskIntoConstraints="NO" id="8WW-WG-g0q">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="45"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="7PS-FI-BGm">
+                                        <rect key="frame" x="0.0" y="70" width="240" height="161"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="LvR-4x-pGP"/>
+                                    <constraint firstAttribute="bottom" secondItem="7PS-FI-BGm" secondAttribute="bottom" id="MfX-MH-BWg"/>
+                                    <constraint firstAttribute="trailing" secondItem="8WW-WG-g0q" secondAttribute="trailing" id="klz-dd-4B7"/>
+                                    <constraint firstItem="7PS-FI-BGm" firstAttribute="top" secondItem="8WW-WG-g0q" secondAttribute="bottom" constant="25" id="mgr-Uu-bzA"/>
+                                    <constraint firstItem="7PS-FI-BGm" firstAttribute="leading" secondItem="0Wy-Jw-9kR" secondAttribute="leading" id="o9V-Bm-nOr"/>
+                                    <constraint firstItem="8WW-WG-g0q" firstAttribute="top" secondItem="0Wy-Jw-9kR" secondAttribute="top" id="pzn-MV-ErT"/>
+                                    <constraint firstAttribute="trailing" secondItem="7PS-FI-BGm" secondAttribute="trailing" id="q4J-oQ-ajC"/>
+                                    <constraint firstItem="8WW-WG-g0q" firstAttribute="leading" secondItem="0Wy-Jw-9kR" secondAttribute="leading" id="qGx-Vo-AK3"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61j-EA-Aqh">
+                                <rect key="frame" x="76.5" y="521" width="222" height="66"/>
+                                <color key="backgroundColor" name="Orange"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="222" id="VXP-hB-uT5"/>
+                                    <constraint firstAttribute="height" constant="66" id="qSj-kf-O7z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kalam-Bold" family="Kalam" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" name="White"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gaF-nF-wjb">
+                                <rect key="frame" x="16" y="364" width="343" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKX-2x-ND8">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="32"/>
+                                        <fontDescription key="fontDescription" name="Kalam-Regular" family="Kalam" pointSize="20"/>
+                                        <color key="textColor" name="White"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ljx-O5-YYe">
+                                        <rect key="frame" x="0.0" y="74" width="343" height="1"/>
+                                        <color key="backgroundColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="6G0-CX-fPv"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfd-pM-w7q">
+                                        <rect key="frame" x="0.0" y="33" width="95.5" height="36"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down_errow" translatesAutoresizingMaskIntoConstraints="NO" id="knF-Oc-7vs">
+                                                <rect key="frame" x="69.5" y="10" width="16" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="16" id="YTY-Pa-z62"/>
+                                                    <constraint firstAttribute="height" constant="16" id="ydH-Di-cGN"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indian_flag" translatesAutoresizingMaskIntoConstraints="NO" id="1a5-79-VW2">
+                                                <rect key="frame" x="5" y="10" width="22" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="16" id="Sq5-WR-2tH"/>
+                                                    <constraint firstAttribute="width" constant="22" id="YMk-ab-rnG"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+91" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99F-8M-62R">
+                                                <rect key="frame" x="31" y="3" width="28.5" height="30"/>
+                                                <fontDescription key="fontDescription" name="Kalam-Regular" family="Kalam" pointSize="20"/>
+                                                <color key="textColor" name="White"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLQ-Re-A1y">
+                                                <rect key="frame" x="0.0" y="0.0" width="95.5" height="36"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" name="Background"/>
+                                        <constraints>
+                                            <constraint firstItem="1a5-79-VW2" firstAttribute="top" secondItem="wfd-pM-w7q" secondAttribute="top" constant="10" id="10q-AV-Vee"/>
+                                            <constraint firstAttribute="trailing" secondItem="knF-Oc-7vs" secondAttribute="trailing" constant="10" id="4Wp-1E-NpM"/>
+                                            <constraint firstItem="aLQ-Re-A1y" firstAttribute="top" secondItem="wfd-pM-w7q" secondAttribute="top" id="5Bd-Jp-meq"/>
+                                            <constraint firstItem="1a5-79-VW2" firstAttribute="leading" secondItem="wfd-pM-w7q" secondAttribute="leading" constant="5" id="GhQ-Oh-0cN"/>
+                                            <constraint firstAttribute="bottom" secondItem="99F-8M-62R" secondAttribute="bottom" constant="3" id="Olf-9f-dBZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="aLQ-Re-A1y" secondAttribute="trailing" id="b6Y-Xm-GvY"/>
+                                            <constraint firstItem="99F-8M-62R" firstAttribute="leading" secondItem="1a5-79-VW2" secondAttribute="trailing" constant="4" id="cxo-8T-mAg"/>
+                                            <constraint firstAttribute="bottom" secondItem="aLQ-Re-A1y" secondAttribute="bottom" id="hd6-ez-DfA"/>
+                                            <constraint firstItem="knF-Oc-7vs" firstAttribute="centerY" secondItem="wfd-pM-w7q" secondAttribute="centerY" id="moB-hx-O9q"/>
+                                            <constraint firstAttribute="bottom" secondItem="1a5-79-VW2" secondAttribute="bottom" constant="10" id="sXc-wj-Tu6"/>
+                                            <constraint firstItem="knF-Oc-7vs" firstAttribute="leading" secondItem="99F-8M-62R" secondAttribute="trailing" constant="10" id="vou-gV-oRw"/>
+                                            <constraint firstItem="99F-8M-62R" firstAttribute="top" secondItem="wfd-pM-w7q" secondAttribute="top" constant="3" id="vwf-hT-DgH"/>
+                                            <constraint firstItem="aLQ-Re-A1y" firstAttribute="leading" secondItem="wfd-pM-w7q" secondAttribute="leading" id="vzo-JR-4Ve"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColorView">
+                                                <color key="value" red="0.0" green="0.30980392156862746" blue="0.43529411764705883" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your Mobile No" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xJV-he-4HF">
+                                        <rect key="frame" x="100.5" y="32" width="242.5" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="ybb-uR-wvf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Kalam-Regular" family="Kalam" pointSize="26"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="xJV-he-4HF" firstAttribute="leading" secondItem="wfd-pM-w7q" secondAttribute="trailing" constant="5" id="2Cc-yK-JIi"/>
+                                    <constraint firstAttribute="bottom" secondItem="ljx-O5-YYe" secondAttribute="bottom" id="3kc-ry-zvp"/>
+                                    <constraint firstItem="JKX-2x-ND8" firstAttribute="top" secondItem="gaF-nF-wjb" secondAttribute="top" id="BKy-ll-Sjq"/>
+                                    <constraint firstAttribute="trailing" secondItem="JKX-2x-ND8" secondAttribute="trailing" id="BMW-YL-Unz"/>
+                                    <constraint firstItem="ljx-O5-YYe" firstAttribute="leading" secondItem="gaF-nF-wjb" secondAttribute="leading" id="CgO-fF-Key"/>
+                                    <constraint firstAttribute="trailing" secondItem="ljx-O5-YYe" secondAttribute="trailing" id="Hrq-YH-hAT"/>
+                                    <constraint firstItem="ljx-O5-YYe" firstAttribute="top" secondItem="wfd-pM-w7q" secondAttribute="bottom" constant="5" id="Ipq-s8-pCU"/>
+                                    <constraint firstItem="xJV-he-4HF" firstAttribute="top" secondItem="JKX-2x-ND8" secondAttribute="bottom" id="fCl-vJ-n2u"/>
+                                    <constraint firstItem="wfd-pM-w7q" firstAttribute="top" secondItem="JKX-2x-ND8" secondAttribute="bottom" constant="1" id="gd3-HV-aAG"/>
+                                    <constraint firstItem="wfd-pM-w7q" firstAttribute="leading" secondItem="gaF-nF-wjb" secondAttribute="leading" id="hFO-mA-7Gt"/>
+                                    <constraint firstItem="JKX-2x-ND8" firstAttribute="leading" secondItem="gaF-nF-wjb" secondAttribute="leading" id="rbH-9o-L6E"/>
+                                    <constraint firstAttribute="trailing" secondItem="xJV-he-4HF" secondAttribute="trailing" id="uCV-y5-K98"/>
+                                    <constraint firstItem="ljx-O5-YYe" firstAttribute="top" secondItem="xJV-he-4HF" secondAttribute="bottom" id="vnf-qY-heX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="gaF-nF-wjb" firstAttribute="top" relation="greaterThanOrEqual" secondItem="0Wy-Jw-9kR" secondAttribute="bottom" constant="43" id="086-87-Qbp"/>
+                            <constraint firstItem="gaF-nF-wjb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="30v-pl-gHt"/>
+                            <constraint firstItem="61j-EA-Aqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R8V-kC-9Hn"/>
+                            <constraint firstItem="61j-EA-Aqh" firstAttribute="top" secondItem="gaF-nF-wjb" secondAttribute="bottom" constant="82" id="TWE-UV-ZCv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="61j-EA-Aqh" secondAttribute="bottom" constant="80" id="mIP-yT-85n"/>
+                            <constraint firstItem="0Wy-Jw-9kR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="mgW-m8-nDc"/>
+                            <constraint firstItem="0Wy-Jw-9kR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qPz-bs-O5O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gaF-nF-wjb" secondAttribute="trailing" constant="16" id="wH9-8F-wbe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-121" y="96"/>
+        </scene>
+        <!--ValidateOTPVC-->
+        <scene sceneID="ab9-OR-prQ">
+            <objects>
+                <viewController storyboardIdentifier="ValidateOTPVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Lt-Me-q8J" customClass="ValidateOTPVC" customModule="HinduCafe_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sGe-cE-mpZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2zY-Rc-IRn">
+                                <rect key="frame" x="67.5" y="60" width="240" height="231"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HinduCafe Name" translatesAutoresizingMaskIntoConstraints="NO" id="Xjd-dQ-h6x">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="45"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="L3X-HC-djw">
+                                        <rect key="frame" x="0.0" y="70" width="240" height="161"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Xjd-dQ-h6x" firstAttribute="top" secondItem="2zY-Rc-IRn" secondAttribute="top" id="8hY-1G-Iws"/>
+                                    <constraint firstAttribute="width" constant="240" id="OjX-7f-bg4"/>
+                                    <constraint firstItem="L3X-HC-djw" firstAttribute="leading" secondItem="2zY-Rc-IRn" secondAttribute="leading" id="ULd-Y3-MGH"/>
+                                    <constraint firstItem="Xjd-dQ-h6x" firstAttribute="leading" secondItem="2zY-Rc-IRn" secondAttribute="leading" id="Wuu-VE-Lyy"/>
+                                    <constraint firstAttribute="bottom" secondItem="L3X-HC-djw" secondAttribute="bottom" id="cix-JB-CiP"/>
+                                    <constraint firstItem="L3X-HC-djw" firstAttribute="top" secondItem="Xjd-dQ-h6x" secondAttribute="bottom" constant="25" id="dOW-87-IlN"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xjd-dQ-h6x" secondAttribute="trailing" id="i9B-6c-9eb"/>
+                                    <constraint firstAttribute="trailing" secondItem="L3X-HC-djw" secondAttribute="trailing" id="mWD-4f-b9L"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="573-3c-W4l">
+                                <rect key="frame" x="76.5" y="521" width="222" height="66"/>
+                                <color key="backgroundColor" name="Orange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="63s-EK-Xlt"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="222" id="pwR-Uc-srF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kalam-Bold" family="Kalam" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" name="White"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CgZ-GQ-RSp">
+                                <rect key="frame" x="16" y="364" width="343" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter OTP " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRS-62-Rh9">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="32"/>
+                                        <fontDescription key="fontDescription" name="Kalam-Regular" family="Kalam" pointSize="20"/>
+                                        <color key="textColor" name="White"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IIy-kx-s6G">
+                                        <rect key="frame" x="0.0" y="74" width="343" height="1"/>
+                                        <color key="backgroundColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="bjt-yd-MIR"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your OTP" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JZD-K3-qEM">
+                                        <rect key="frame" x="0.0" y="32" width="343" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="3Zb-Pq-Ftt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Kalam-Regular" family="Kalam" pointSize="26"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="eRS-62-Rh9" firstAttribute="top" secondItem="CgZ-GQ-RSp" secondAttribute="top" id="3Ye-Su-pU8"/>
+                                    <constraint firstItem="IIy-kx-s6G" firstAttribute="leading" secondItem="CgZ-GQ-RSp" secondAttribute="leading" id="Alb-hv-SdF"/>
+                                    <constraint firstAttribute="trailing" secondItem="eRS-62-Rh9" secondAttribute="trailing" id="C89-qo-cyQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="IIy-kx-s6G" secondAttribute="bottom" id="KCu-aK-E5D"/>
+                                    <constraint firstItem="IIy-kx-s6G" firstAttribute="top" secondItem="JZD-K3-qEM" secondAttribute="bottom" id="O3q-it-jre"/>
+                                    <constraint firstItem="eRS-62-Rh9" firstAttribute="leading" secondItem="CgZ-GQ-RSp" secondAttribute="leading" id="PnW-ay-xaw"/>
+                                    <constraint firstItem="JZD-K3-qEM" firstAttribute="leading" secondItem="CgZ-GQ-RSp" secondAttribute="leading" id="TmR-sj-UXf"/>
+                                    <constraint firstAttribute="trailing" secondItem="JZD-K3-qEM" secondAttribute="trailing" id="h29-az-a9V"/>
+                                    <constraint firstAttribute="trailing" secondItem="IIy-kx-s6G" secondAttribute="trailing" id="pfq-pr-79W"/>
+                                    <constraint firstItem="JZD-K3-qEM" firstAttribute="top" secondItem="eRS-62-Rh9" secondAttribute="bottom" id="qIc-KP-yMw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="H2g-5f-gfP"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="573-3c-W4l" firstAttribute="centerX" secondItem="sGe-cE-mpZ" secondAttribute="centerX" id="7TW-Ab-ORS"/>
+                            <constraint firstItem="2zY-Rc-IRn" firstAttribute="top" secondItem="H2g-5f-gfP" secondAttribute="top" constant="60" id="Yah-yJ-uYq"/>
+                            <constraint firstItem="CgZ-GQ-RSp" firstAttribute="leading" secondItem="H2g-5f-gfP" secondAttribute="leading" constant="16" id="ZPh-7B-5zM"/>
+                            <constraint firstItem="CgZ-GQ-RSp" firstAttribute="top" relation="greaterThanOrEqual" secondItem="2zY-Rc-IRn" secondAttribute="bottom" constant="43" id="a7U-mX-38l"/>
+                            <constraint firstItem="2zY-Rc-IRn" firstAttribute="centerX" secondItem="sGe-cE-mpZ" secondAttribute="centerX" id="cj6-P3-YD2"/>
+                            <constraint firstItem="H2g-5f-gfP" firstAttribute="trailing" secondItem="CgZ-GQ-RSp" secondAttribute="trailing" constant="16" id="dKO-7a-BFy"/>
+                            <constraint firstItem="H2g-5f-gfP" firstAttribute="bottom" secondItem="573-3c-W4l" secondAttribute="bottom" constant="80" id="lYm-tp-WKS"/>
+                            <constraint firstItem="573-3c-W4l" firstAttribute="top" secondItem="CgZ-GQ-RSp" secondAttribute="bottom" constant="82" id="yGq-gz-fJP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="oPh-uR-SA3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0lr-KE-e4u" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="588" y="95.802098950524751"/>
+        </scene>
+        <!--Invitation CodeVC-->
+        <scene sceneID="KXV-nw-idc">
+            <objects>
+                <viewController storyboardIdentifier="InvitationCodeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1og-vy-EMy" customClass="InvitationCodeVC" customModule="HinduCafe_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lVJ-n3-o1j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vko-jZ-Dbf">
+                                <rect key="frame" x="67.5" y="60" width="240" height="231"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HinduCafe Name" translatesAutoresizingMaskIntoConstraints="NO" id="nVL-0F-31J">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="45"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="g1s-k0-OTS">
+                                        <rect key="frame" x="0.0" y="70" width="240" height="161"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="2jA-4Q-DBJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="g1s-k0-OTS" secondAttribute="bottom" id="3Qh-eL-bgA"/>
+                                    <constraint firstAttribute="trailing" secondItem="nVL-0F-31J" secondAttribute="trailing" id="6lW-CS-w0X"/>
+                                    <constraint firstItem="g1s-k0-OTS" firstAttribute="leading" secondItem="Vko-jZ-Dbf" secondAttribute="leading" id="B6y-jK-4jC"/>
+                                    <constraint firstItem="g1s-k0-OTS" firstAttribute="top" secondItem="nVL-0F-31J" secondAttribute="bottom" constant="25" id="se7-7Z-TQ3"/>
+                                    <constraint firstItem="nVL-0F-31J" firstAttribute="leading" secondItem="Vko-jZ-Dbf" secondAttribute="leading" id="uVQ-ei-gkp"/>
+                                    <constraint firstAttribute="trailing" secondItem="g1s-k0-OTS" secondAttribute="trailing" id="uwt-6h-2vG"/>
+                                    <constraint firstItem="nVL-0F-31J" firstAttribute="top" secondItem="Vko-jZ-Dbf" secondAttribute="top" id="wvx-gR-3dj"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaF-98-ZWY">
+                                <rect key="frame" x="76.5" y="521" width="222" height="66"/>
+                                <color key="backgroundColor" name="Orange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Jth-Ua-UTt"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="222" id="Mhp-87-XIX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kalam-Bold" family="Kalam" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" name="White"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="biW-Tp-HKH">
+                                <rect key="frame" x="16" y="361" width="343" height="78"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Invitation Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWE-dJ-KwE">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="32"/>
+                                        <fontDescription key="fontDescription" name="Kalam-Regular" family="Kalam" pointSize="20"/>
+                                        <color key="textColor" name="White"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rnc-75-rZi">
+                                        <rect key="frame" x="0.0" y="77" width="343" height="1"/>
+                                        <color key="backgroundColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="mG7-kH-uf4"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your Invitation Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aoV-9r-lAH">
+                                        <rect key="frame" x="0.0" y="32" width="343" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="5Ay-Af-2oY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Kalam-Regular" family="Kalam" pointSize="26"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ZWE-dJ-KwE" firstAttribute="leading" secondItem="biW-Tp-HKH" secondAttribute="leading" id="7ng-Yk-WpO"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZWE-dJ-KwE" secondAttribute="trailing" id="Hnc-AM-DzS"/>
+                                    <constraint firstItem="Rnc-75-rZi" firstAttribute="leading" secondItem="biW-Tp-HKH" secondAttribute="leading" id="Ppv-TH-HqS"/>
+                                    <constraint firstItem="ZWE-dJ-KwE" firstAttribute="top" secondItem="biW-Tp-HKH" secondAttribute="top" id="WYB-PH-FV0"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rnc-75-rZi" secondAttribute="bottom" id="aLg-6q-Qce"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rnc-75-rZi" secondAttribute="trailing" id="jqB-NW-aTy"/>
+                                    <constraint firstAttribute="trailing" secondItem="aoV-9r-lAH" secondAttribute="trailing" id="k6M-0Q-XrY"/>
+                                    <constraint firstItem="aoV-9r-lAH" firstAttribute="top" secondItem="ZWE-dJ-KwE" secondAttribute="bottom" id="r3N-Z0-uFs"/>
+                                    <constraint firstItem="Rnc-75-rZi" firstAttribute="top" secondItem="aoV-9r-lAH" secondAttribute="bottom" id="x5D-IW-dg7"/>
+                                    <constraint firstItem="aoV-9r-lAH" firstAttribute="leading" secondItem="biW-Tp-HKH" secondAttribute="leading" id="zvK-Fa-Zqo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1y7-Cn-Azk"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="biW-Tp-HKH" firstAttribute="leading" secondItem="1y7-Cn-Azk" secondAttribute="leading" constant="16" id="7WZ-t2-Din"/>
+                            <constraint firstItem="biW-Tp-HKH" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Vko-jZ-Dbf" secondAttribute="bottom" constant="43" id="MmA-5K-Qga"/>
+                            <constraint firstItem="yaF-98-ZWY" firstAttribute="centerX" secondItem="lVJ-n3-o1j" secondAttribute="centerX" id="Ojs-C0-hf8"/>
+                            <constraint firstItem="1y7-Cn-Azk" firstAttribute="bottom" secondItem="yaF-98-ZWY" secondAttribute="bottom" constant="80" id="PCf-3W-eF6"/>
+                            <constraint firstItem="yaF-98-ZWY" firstAttribute="top" secondItem="biW-Tp-HKH" secondAttribute="bottom" constant="82" id="Qlc-ah-ooJ"/>
+                            <constraint firstItem="Vko-jZ-Dbf" firstAttribute="centerX" secondItem="lVJ-n3-o1j" secondAttribute="centerX" id="Rzb-Te-hQD"/>
+                            <constraint firstItem="1y7-Cn-Azk" firstAttribute="trailing" secondItem="biW-Tp-HKH" secondAttribute="trailing" constant="16" id="VZr-aq-bcg"/>
+                            <constraint firstItem="Vko-jZ-Dbf" firstAttribute="top" secondItem="1y7-Cn-Azk" secondAttribute="top" constant="60" id="unE-E3-TlL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cw1-bf-8xW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V2k-8b-llM" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1332" y="96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HinduCafe Name" width="205" height="45"/>
+        <image name="Logo" width="161" height="161"/>
+        <image name="down_errow" width="11.5" height="7"/>
+        <image name="indian_flag" width="21.5" height="16"/>
+        <namedColor name="Background">
+            <color red="0.043000001460313797" green="0.071000002324581146" blue="0.14499999582767487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Orange">
+            <color red="0.77999997138977051" green="0.25900000333786011" blue="0.14499999582767487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

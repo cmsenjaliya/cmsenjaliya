@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14A209BF7460766EA2D757BF /* Pods_HinduCafe_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAB18D4713A4BCC29037299 /* Pods_HinduCafe_iOS.framework */; };
+		3A0D52DA28107D0B00B177F6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0D52D928107D0B00B177F6 /* LoginVC.swift */; };
+		3A3A324D2811CB6200CD7024 /* ValidateOTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A324C2811CB6200CD7024 /* ValidateOTPVC.swift */; };
+		3A3A324F2811CD0F00CD7024 /* InvitationCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A324E2811CD0F00CD7024 /* InvitationCodeVC.swift */; };
+		3A9DB73C280DD18B006EE0BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DB73B280DD18B006EE0BC /* AppDelegate.swift */; };
+		3A9DB743280DD18B006EE0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9DB741280DD18B006EE0BC /* Main.storyboard */; };
+		3A9DB745280DD18D006EE0BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9DB744280DD18D006EE0BC /* Assets.xcassets */; };
+		3A9DB748280DD18D006EE0BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9DB746280DD18D006EE0BC /* LaunchScreen.storyboard */; };
+		3A9DB757280DDE61006EE0BC /* Kalam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A9DB754280DDE61006EE0BC /* Kalam-Regular.ttf */; };
+		3A9DB758280DDE61006EE0BC /* Kalam-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A9DB755280DDE61006EE0BC /* Kalam-Light.ttf */; };
+		3A9DB759280DDE61006EE0BC /* Kalam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A9DB756280DDE61006EE0BC /* Kalam-Bold.ttf */; };
+		3A9DB77E280DE2E9006EE0BC /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DB75D280DE2E9006EE0BC /* iOSDropDown.swift */; };
+		3A9DB77F280DE2E9006EE0BC /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DB75F280DE2E9006EE0BC /* CHIBasePageControl.swift */; };
+		3A9DB780280DE2E9006EE0BC /* CHIPageControlJaloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DB760280DE2E9006EE0BC /* CHIPageControlJaloro.swift */; };
+		3A9DB781280DE2E9006EE0BC /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DB761280DE2E9006EE0BC /* CHIPageControllable.swift */; };
+		3A9DB782280DE2E9006EE0BC /* CHILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DB762280DE2E9006EE0BC /* CHILayer.swift */; };
+		3A9DB783280DE2E9006EE0BC /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DB763280DE2E9006EE0BC /* CommonFunction.swift */; };
+		3A9DB784280DE2E9006EE0BC /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DB764280DE2E9006EE0BC /* ViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BAB18D4713A4BCC29037299 /* Pods_HinduCafe_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HinduCafe_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0D52D928107D0B00B177F6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		3A3A324C2811CB6200CD7024 /* ValidateOTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateOTPVC.swift; sourceTree = "<group>"; };
+		3A3A324E2811CD0F00CD7024 /* InvitationCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationCodeVC.swift; sourceTree = "<group>"; };
+		3A9DB738280DD18B006EE0BC /* HinduCafe_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HinduCafe_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9DB73B280DD18B006EE0BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A9DB742280DD18B006EE0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A9DB744280DD18D006EE0BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A9DB747280DD18D006EE0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A9DB749280DD18D006EE0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9DB754280DDE61006EE0BC /* Kalam-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kalam-Regular.ttf"; sourceTree = "<group>"; };
+		3A9DB755280DDE61006EE0BC /* Kalam-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kalam-Light.ttf"; sourceTree = "<group>"; };
+		3A9DB756280DDE61006EE0BC /* Kalam-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kalam-Bold.ttf"; sourceTree = "<group>"; };
+		3A9DB75D280DE2E9006EE0BC /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		3A9DB75F280DE2E9006EE0BC /* CHIBasePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIBasePageControl.swift; sourceTree = "<group>"; };
+		3A9DB760280DE2E9006EE0BC /* CHIPageControlJaloro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlJaloro.swift; sourceTree = "<group>"; };
+		3A9DB761280DE2E9006EE0BC /* CHIPageControllable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControllable.swift; sourceTree = "<group>"; };
+		3A9DB762280DE2E9006EE0BC /* CHILayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHILayer.swift; sourceTree = "<group>"; };
+		3A9DB763280DE2E9006EE0BC /* CommonFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		3A9DB764280DE2E9006EE0BC /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		644F985CAE3E6655A67B6101 /* Pods-HinduCafe_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HinduCafe_iOS.release.xcconfig"; path = "Target Support Files/Pods-HinduCafe_iOS/Pods-HinduCafe_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		D8EDF3DEEE9A8DE2F91E6980 /* Pods-HinduCafe_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HinduCafe_iOS.debug.xcconfig"; path = "Target Support Files/Pods-HinduCafe_iOS/Pods-HinduCafe_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A9DB735280DD18B006EE0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A209BF7460766EA2D757BF /* Pods_HinduCafe_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A9DB72F280DD18B006EE0BC = {
+			isa = PBXGroup;
+			children = (
+				3A9DB73A280DD18B006EE0BC /* HinduCafe_iOS */,
+				3A9DB739280DD18B006EE0BC /* Products */,
+				FEA929704DFB6EB98FB87A61 /* Pods */,
+				F30E26B490D5C5B5FCA81EE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A9DB739280DD18B006EE0BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A9DB738280DD18B006EE0BC /* HinduCafe_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A9DB73A280DD18B006EE0BC /* HinduCafe_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3A9DB73B280DD18B006EE0BC /* AppDelegate.swift */,
+				3A9DB752280DD9E4006EE0BC /* ViewModel */,
+				3A9DB751280DD9D3006EE0BC /* Model */,
+				3A9DB750280DD9C9006EE0BC /* ViewController */,
+				3A9DB74F280DD9C2006EE0BC /* Main */,
+				3A9DB75B280DE2E9006EE0BC /* Utility */,
+				3A9DB744280DD18D006EE0BC /* Assets.xcassets */,
+				3A9DB749280DD18D006EE0BC /* Info.plist */,
+			);
+			path = HinduCafe_iOS;
+			sourceTree = "<group>";
+		};
+		3A9DB74F280DD9C2006EE0BC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3A9DB746280DD18D006EE0BC /* LaunchScreen.storyboard */,
+				3A9DB741280DD18B006EE0BC /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3A9DB750280DD9C9006EE0BC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A0D52D928107D0B00B177F6 /* LoginVC.swift */,
+				3A3A324C2811CB6200CD7024 /* ValidateOTPVC.swift */,
+				3A3A324E2811CD0F00CD7024 /* InvitationCodeVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3A9DB751280DD9D3006EE0BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A9DB752280DD9E4006EE0BC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A9DB753280DDE61006EE0BC /* Kalam */ = {
+			isa = PBXGroup;
+			children = (
+				3A9DB754280DDE61006EE0BC /* Kalam-Regular.ttf */,
+				3A9DB755280DDE61006EE0BC /* Kalam-Light.ttf */,
+				3A9DB756280DDE61006EE0BC /* Kalam-Bold.ttf */,
+			);
+			path = Kalam;
+			sourceTree = "<group>";
+		};
+		3A9DB75A280DDE66006EE0BC /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3A9DB753280DDE61006EE0BC /* Kalam */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		3A9DB75B280DE2E9006EE0BC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3A9DB75A280DDE66006EE0BC /* Font */,
+				3A9DB75C280DE2E9006EE0BC /* DropDown */,
+				3A9DB75E280DE2E9006EE0BC /* PageContrl */,
+				3A9DB763280DE2E9006EE0BC /* CommonFunction.swift */,
+				3A9DB764280DE2E9006EE0BC /* ViewExtension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3A9DB75C280DE2E9006EE0BC /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				3A9DB75D280DE2E9006EE0BC /* iOSDropDown.swift */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		3A9DB75E280DE2E9006EE0BC /* PageContrl */ = {
+			isa = PBXGroup;
+			children = (
+				3A9DB75F280DE2E9006EE0BC /* CHIBasePageControl.swift */,
+				3A9DB760280DE2E9006EE0BC /* CHIPageControlJaloro.swift */,
+				3A9DB761280DE2E9006EE0BC /* CHIPageControllable.swift */,
+				3A9DB762280DE2E9006EE0BC /* CHILayer.swift */,
+			);
+			path = PageContrl;
+			sourceTree = "<group>";
+		};
+		F30E26B490D5C5B5FCA81EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BAB18D4713A4BCC29037299 /* Pods_HinduCafe_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA929704DFB6EB98FB87A61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8EDF3DEEE9A8DE2F91E6980 /* Pods-HinduCafe_iOS.debug.xcconfig */,
+				644F985CAE3E6655A67B6101 /* Pods-HinduCafe_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A9DB737280DD18B006EE0BC /* HinduCafe_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A9DB74C280DD18D006EE0BC /* Build configuration list for PBXNativeTarget "HinduCafe_iOS" */;
+			buildPhases = (
+				5EBBDDFD15C6D619C42AE38E /* [CP] Check Pods Manifest.lock */,
+				3A9DB734280DD18B006EE0BC /* Sources */,
+				3A9DB735280DD18B006EE0BC /* Frameworks */,
+				3A9DB736280DD18B006EE0BC /* Resources */,
+				E2DE15FADF6372183FBDC2A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HinduCafe_iOS;
+			productName = HinduCafe_iOS;
+			productReference = 3A9DB738280DD18B006EE0BC /* HinduCafe_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A9DB730280DD18B006EE0BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3A9DB737280DD18B006EE0BC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A9DB733280DD18B006EE0BC /* Build configuration list for PBXProject "HinduCafe_iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A9DB72F280DD18B006EE0BC;
+			productRefGroup = 3A9DB739280DD18B006EE0BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A9DB737280DD18B006EE0BC /* HinduCafe_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A9DB736280DD18B006EE0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9DB759280DDE61006EE0BC /* Kalam-Bold.ttf in Resources */,
+				3A9DB748280DD18D006EE0BC /* LaunchScreen.storyboard in Resources */,
+				3A9DB758280DDE61006EE0BC /* Kalam-Light.ttf in Resources */,
+				3A9DB745280DD18D006EE0BC /* Assets.xcassets in Resources */,
+				3A9DB757280DDE61006EE0BC /* Kalam-Regular.ttf in Resources */,
+				3A9DB743280DD18B006EE0BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EBBDDFD15C6D619C42AE38E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HinduCafe_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2DE15FADF6372183FBDC2A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HinduCafe_iOS/Pods-HinduCafe_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HinduCafe_iOS/Pods-HinduCafe_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HinduCafe_iOS/Pods-HinduCafe_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A9DB734280DD18B006EE0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9DB784280DE2E9006EE0BC /* ViewExtension.swift in Sources */,
+				3A9DB780280DE2E9006EE0BC /* CHIPageControlJaloro.swift in Sources */,
+				3A9DB782280DE2E9006EE0BC /* CHILayer.swift in Sources */,
+				3A9DB77F280DE2E9006EE0BC /* CHIBasePageControl.swift in Sources */,
+				3A9DB77E280DE2E9006EE0BC /* iOSDropDown.swift in Sources */,
+				3A3A324D2811CB6200CD7024 /* ValidateOTPVC.swift in Sources */,
+				3A9DB781280DE2E9006EE0BC /* CHIPageControllable.swift in Sources */,
+				3A9DB783280DE2E9006EE0BC /* CommonFunction.swift in Sources */,
+				3A0D52DA28107D0B00B177F6 /* LoginVC.swift in Sources */,
+				3A3A324F2811CD0F00CD7024 /* InvitationCodeVC.swift in Sources */,
+				3A9DB73C280DD18B006EE0BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A9DB741280DD18B006EE0BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A9DB742280DD18B006EE0BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A9DB746280DD18D006EE0BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A9DB747280DD18D006EE0BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A9DB74A280DD18D006EE0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A9DB74B280DD18D006EE0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A9DB74D280DD18D006EE0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8EDF3DEEE9A8DE2F91E6980 /* Pods-HinduCafe_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RN7PA84X8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HinduCafe_iOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hindu Cafe";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.india.out.HinduCafe-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3A9DB74E280DD18D006EE0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644F985CAE3E6655A67B6101 /* Pods-HinduCafe_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RN7PA84X8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HinduCafe_iOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hindu Cafe";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.india.out.HinduCafe-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A9DB733280DD18B006EE0BC /* Build configuration list for PBXProject "HinduCafe_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9DB74A280DD18D006EE0BC /* Debug */,
+				3A9DB74B280DD18D006EE0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A9DB74C280DD18D006EE0BC /* Build configuration list for PBXNativeTarget "HinduCafe_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9DB74D280DD18D006EE0BC /* Debug */,
+				3A9DB74E280DD18D006EE0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A9DB730280DD18B006EE0BC /* Project object */;
+}
